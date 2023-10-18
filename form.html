@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./CSS/styles.css">
+
+  <title>Upload Videos</title>
+</head>
+<body>
+
+  <h1 class="h1"><a href="./index.html"></a>MyTube</h1>
+
+  <div style="text-align:center;">
+    <nav id="nav">
+      <a href="./index.html" class="nav">Home</a>
+      <a href="./collections/collections1.html" class="nav">Collection 1</a>
+      <a href="./collections/collections2.html" class="nav">Collection 2</a>
+      <a href="./collections/collections3.html" class="nav">Collection 3</a>
+    </nav>
+  </div>
+
+  <h2 class="second-header">Upload New Video</h2>
+
+
+  <form action="post">
+
+  <label for="vid-title">Video Title</label><br>
+  <input type="text" id="vid-title" name="vid-title" placeholder=" Enter video title">
+  <br><br>
+
+
+  <label for="description">Description</label><br>
+  <textarea id="description" name="description" value="description" rows="6"cols="17" placeholder=" Enter description of your video ...."></textarea>
+  <br><br>
+
+  <label for="file">Video</label><br>
+  <input type="file" id="file" name="file "placeholder="Choose File">
+  <br><br>
+
+
+  <label for="collection-list">Add to: </label><br>
+  <select class="drop-down">
+    <option value="collections1" name="collections1">Collection 1</option>
+    <option value="collections2" name="collections2">Collection 2</option>
+    <option value="collections3" name="collections3">Collection 3</option>
+  </select>
+
+  <br><br>
+
+  <label for="privacy">Privacy Preference</label>
+  <br>
+  
+  <input type="radio" id="public" name="privacy" value="public" class="upload-radio-buttons"> 
+  <label for="">Public</label> 
+  <br>
+  <input type="radio"id="private" name="privacy" value="private" class="upload-radio-buttons"> 
+  <label for="">Private</label>
+
+  <br><br>
+
+  <div class="submit-button">
+  <label for="submit" ></label>
+  <input type="submit" id="submit" name="submit" value="Upload Video" >
+  </div>
+</form>
+
+
+ <br><br><br><br>
+<hr>
+<footer>&copy: Copyright</footer>
+
+
+
+
+  
+</body>
+</html>

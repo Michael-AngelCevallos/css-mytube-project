@@ -1,0 +1,147 @@
+
+/* styles.css is only css page linked to every stylized page */
+
+body{
+  background-color: RGB(15,15,15);
+}
+
+form{
+  margin-left: 30px;
+}
+
+iframe{
+  border-radius: 20px;
+}
+
+table{
+  display: flex;
+  justify-content: center;
+}
+
+td{
+  padding: 30px;
+}
+
+label{
+  color:white;
+  padding-bottom: 10px;
+}
+
+input{
+  margin-top: 15px;
+  border-radius: 5px;
+  background-color: cadetblue;
+}
+
+textarea{
+  background-color: cadetblue;
+  width: 500px;
+  margin-top: 15px;
+}
+
+.h1{
+  color: cadetblue;
+  margin-top:10px;
+  margin-left: 10px;
+}
+
+/* Style for Anchors in the Navbar */
+.nav{
+ margin: 10px;
+ background-color: grey;
+ color:white;
+ padding: 3px 8px;
+ text-decoration: none;
+ border-radius: 10px;
+}
+
+.nav:hover{
+  background-color: cadetblue;
+}
+
+/* Stylizes Video Name */
+.video-name{
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.video-name:hover{
+  color: cadetblue;
+}
+
+/* Stylizes and spaces all h2's */
+.second-header{
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: 90px;
+  margin-bottom: 10px;
+}
+
+/* Spaces out video name from video */
+.video-name-space{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.drop-down{
+  background-color: cadetblue;
+  width: 300px;
+  margin-top: 15px;
+}
+
+.submit-button{
+  display: flex;
+  justify-content: center;
+}
+
+#submit:hover{
+  background-color: cornflowerblue;
+}
+
+.upload-radio-buttons{
+  width: 20px;
+  height: 15px;
+  accent-color: cadetblue;
+}
+
+.details-header{
+  color: white;
+  margin-top: 90px;
+  margin-bottom: 50px;
+  margin-left: 30px;
+}
+
+.details-paragraphs{
+  color: cadetblue;
+  margin:30px;
+  margin-top: 60px;
+}
+
+.details-iframe{
+  width: 800px; 
+  height: 380px;
+}
+
+.details-iframe-spacing{
+  display: flex;
+  justify-content: center;
+}
+
+/* Styles and Spaces Top Views Header */
+#featured{
+ display: flex;
+ justify-content: center;
+ color: white;
+ margin-top: 90px;
+ margin-bottom: 10px;
+}
+
+footer{
+  color: white;
+  display: flex;
+  justify-content: right;
+}
+
